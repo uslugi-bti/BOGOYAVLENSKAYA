@@ -197,6 +197,9 @@
     .seo .values__item:last-child {
         grid-column: 1 / 3;
     }
+    .values__item:last-child {
+        grid-column: 1 / 3;
+    }
     .sign__body {
         grid-template-columns: 1fr;
         row-gap: 40px;
@@ -548,7 +551,10 @@
     .seo .values__item:last-child {
         grid-column: 1 / 2;
     }
-    .benefits__item {
+    .values__item:last-child {
+        grid-column: 1 / 2;
+    }
+    .benefits__item:last-child {
         grid-column: 1 / 2;
     }
     .sign__form form {
