@@ -5,11 +5,12 @@ if (document.querySelector(".main__devimg")) {
         let padding;
         if (windowWidth >= 767) {
             padding = (windowWidth - containerWidth) / 2;
-            document.querySelector(".main__devimg").style.marginRight = padding + "px";
+            document.querySelector(".main__devimg").style.paddingRight = padding + "px";
             document.querySelector(".main-help__title").style.marginRight = padding + "px";
             document.querySelector(".main-help__list").style.marginRight = padding + "px";
+            document.querySelector(".main-devimg__phone").style.marginRight = padding + "px";
         } else {
-            document.querySelector(".main__devimg").style.marginRight = 0;
+            document.querySelector(".main__devimg").style.paddingRight = 0;
             document.querySelector(".main-help__title").style.marginRight = 15 + "px";
             document.querySelector(".main-help__list").style.marginRight = 15 + "px";
             document.querySelector(".main__devimg").style.marginLeft = 0;
@@ -27,6 +28,16 @@ if (document.querySelector(".main__devimg")) {
     window.addEventListener("resize", padding);
 }
 
+function headerMargin () {
+    const first = document.querySelector(".first");
+    const header = document.querySelector(".header");
+    if (first) {
+        first.style.marginTop = header.clientHeight + "px";
+    }
+}
+headerMargin();
+window.addEventListener("resize", headerMargin);
+
 const body = document.querySelector("body");
 const headerBody = document.querySelector(".header__body");
 const headerMenu = document.querySelector(".header__menu");
@@ -34,7 +45,7 @@ const headerLinks = document.querySelectorAll(".header__item>a");
 for (let i = 0; i < headerLinks.length; i++) {
     headerLinks[i].addEventListener("click", function (event) {
         event.preventDefault();
-        body.classList.toggle("header-lock");
+        body.classList.remove("header-lock");
         headerBody.classList.remove("active");
         headerMenu.classList.remove("active");
     });
