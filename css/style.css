@@ -651,7 +651,7 @@ body.header-lock {
     background-repeat: no-repeat;
     background-size: cover;
 }
-.values__item:last-child {
+.seo .values__item:last-child {
     grid-column: 1 / 4;
 }
 .values-item__title {
