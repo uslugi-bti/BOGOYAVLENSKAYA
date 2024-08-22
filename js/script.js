@@ -27,6 +27,21 @@ if (document.querySelector(".main__devimg")) {
     padding();
     window.addEventListener("resize", padding);
 }
+if (document.querySelector(".blog")) {
+    function paddingBlog() {
+        let windowWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+        let containerWidth = document.querySelector(".container").clientWidth - 30;
+        let padding;
+        if (windowWidth >= 767) {
+            padding = (windowWidth - containerWidth) / 2;
+            document.querySelector(".blog__body").style.marginRight = padding + "px";
+        } else {
+            document.querySelector(".blog__body").style.marginRight = 15 + "px";
+        }
+    }
+    paddingBlog();
+    window.addEventListener("resize", paddingBlog);
+}
 
 function headerMargin () {
     const first = document.querySelector(".first");
@@ -44,7 +59,7 @@ const headerMenu = document.querySelector(".header__menu");
 const headerLinks = document.querySelectorAll(".header__item>a");
 for (let i = 0; i < headerLinks.length; i++) {
     headerLinks[i].addEventListener("click", function (event) {
-        event.preventDefault();
+        //event.preventDefault();
         body.classList.remove("header-lock");
         headerBody.classList.remove("active");
         headerMenu.classList.remove("active");
@@ -58,7 +73,7 @@ headerMenu.addEventListener("click", function () {
 });
 
 const servicesButton = document.querySelector(".header__item>a#services-button");
-const aboutButton = document.querySelector(".header__item>a#about-button")
+const aboutButton = document.querySelector(".header__item>a#about-button");
 
 servicesButton.addEventListener('click', function(event) {
     event.preventDefault();
