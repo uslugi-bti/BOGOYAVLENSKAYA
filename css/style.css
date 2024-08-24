@@ -449,7 +449,7 @@ textarea.error {
     align-items: center;
 }
 .services__title h1 {
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     color: #ffffff;
     margin: 0px 10px 0px 0px;
 }
@@ -508,7 +508,7 @@ textarea.error {
     font-family: "Kudryashev";
     font-weight: 500;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .team__title span {
@@ -611,7 +611,7 @@ textarea.error {
 .mission__title h1 {
     text-align: center;
     color: #ffffff;
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     white-space: nowrap;
     padding: 0px 40px;
 }
@@ -632,6 +632,10 @@ textarea.error {
 .values {
     padding: 100px 0px;
 }
+.values:nth-child(5) .values__item,
+.values:nth-child(3) .values__item {
+    padding: 50px 20px;
+}
 .values__title {
     display: flex;
     align-items: center;
@@ -641,7 +645,7 @@ textarea.error {
 .values__title h1 {
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .values__title span {
@@ -652,11 +656,11 @@ textarea.error {
 .values__body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 25px;
-    row-gap: 25px;
+    column-gap: 15px;
+    row-gap: 15px;
 }
 .values__item {
-    padding: 30px 15px;
+    padding: 25px 10px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -667,11 +671,8 @@ textarea.error {
 .values.benefits-targ .values__item:last-child {
     grid-column: 1 / 4;
 }
-/*.values.benefits-targ .values__item {
-
-}*/
 .values-item__title {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 20px 0px;
 }
 .values-item__title h1 {
     font-family: "Kudryashev";
@@ -690,16 +691,16 @@ textarea.error {
     font-family: "Cormorant";
     color: #ffffff;
     text-align: center;
-    font-size: clamp(1.25rem, 1.175rem + 0.375vw, 1.625rem);
-    line-height: 1.5;
+    font-size: clamp(1.125rem, 1.1rem + 0.125vw, 1.25rem);
+    line-height: 1.1;
 }
 .values__text {
     font-family: "Cormorant";
     font-weight: 700;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     text-align: center;
-    margin: 30px 0px 0px 0px;
+    margin: 15px 0px 0px 0px;
 }
 .pos .values__text {
     margin: 0px 0px 30px 0px;
@@ -712,7 +713,7 @@ textarea.error {
 .benefits__title {
     display: flex;
     align-items: center;
-    margin: 0px 0px 40px 0px;
+    margin: 0px 0px 25px 0px;
     justify-content: center;
 }
 .benefits__title span {
@@ -723,7 +724,7 @@ textarea.error {
 .benefits__title h1 {
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     white-space: nowrap;
     padding: 0px 40px;
 }
@@ -735,7 +736,7 @@ textarea.error {
 }
 .benefits__item {
     cursor: pointer;
-    padding: 100px 30px;
+    padding: 45px 20px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -757,7 +758,7 @@ textarea.error {
 }
 .benefits-item__title h1 {
     color: #ffffff;
-    font-size: clamp(1.75rem, 1.5rem + 1.25vw, 3rem);
+    font-size: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);
     text-align: center;
 }
 .benefits-item__text {
@@ -850,7 +851,7 @@ textarea.error {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 25px 0px;
 }
 .sign__title span {
     width: 20%;
@@ -863,21 +864,21 @@ textarea.error {
 .sign__title h1 {
     text-align: center;
     color: #ffffff;
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 20px;
 }
 .white .sign__title h1 {
     color: rgba(32, 32, 32, 1);
 }
 .sign__subtitle {
-    margin: 0px 0px 25px 0px;
+    margin: 0px 0px 20px 0px;
 }
 .sign__subtitle h2 {
     text-align: center;
     font-family: "Cormorant";
     font-weight: 400;
     color: #ffffff;
-    font-size: 36px;
+    font-size: 30px;
 }
 .white .sign__subtitle h2 {
     color: rgba(32, 32, 32, 1);
@@ -887,9 +888,9 @@ textarea.error {
 }
 .sign__text p {
     font-family: "Cormorant";
-    font-size: clamp(1rem, 0.8rem + 1vw, 2rem);
+    font-size: clamp(1rem, 0.8875rem + 0.5625vw, 1.5625rem);
     color: #ffffff;
-    line-height: 1.4;
+    line-height: 1.1;
     text-align: center;
 }
 .sign.white .sign__text p {
@@ -922,12 +923,12 @@ textarea.error {
     object-fit: cover;
 }
 .sign-info__title {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
 }
 .sign-info__title h1 {
     font-family: "Kudryashev";
     font-weight: 500;
-    font-size: clamp(1.5rem, 1.35rem + 0.75vw, 2.25rem);
+    font-size: clamp(1.5rem, 1.425rem + 0.375vw, 1.875rem);
     color: #ffffff;
 }
 .white .sign-info__title h1 {
@@ -965,7 +966,7 @@ textarea.error {
     text-align: center;
     font-family: "Cormorant";
     font-weight: 300;
-    font-size: clamp(1rem, 0.875rem + 0.625vw, 1.625rem);
+    font-size: clamp(1rem, 0.925rem + 0.375vw, 1.375rem);
     color: #ffffff;
 }
 .sign.white .sign-info__text p {
@@ -977,7 +978,7 @@ textarea.error {
     grid-template-rows: repeat(4, auto);
     align-items: end;
     column-gap: 20px;
-    row-gap: 30px;
+    row-gap: 20px;
 }
 .sign-form__input input,
 .sign-form__input textarea {
@@ -1009,7 +1010,7 @@ textarea.error {
 }
 .sign-form__input button {
     display: block;
-    padding: 20px 30px;
+    padding: 15px 25px;
     border: 1px solid #ffffff;
     font-size: 20px;
     text-align: center;
@@ -1130,7 +1131,7 @@ textarea.error {
 .worth__body {
 }
 .worth-body__title h1 {
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     color: rgba(32, 32, 32, 1);
     margin: 0px 0px 20px 0px;
     white-space: wrap;
@@ -1162,15 +1163,15 @@ textarea.error {
 .worth-body-body__title h1 {
     font-family: "Cormorant";
     font-weight: 700;
-    font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     color: rgba(32, 32, 32, 1);
 }
 .worth-body-body__text p {
     font-family: "Cormorant";
     font-weight: 500;
-    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
     color: rgba(32, 32, 32, 1);
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 
@@ -1191,7 +1192,7 @@ textarea.error {
 .social__title h1 {
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .social__body {
@@ -1214,7 +1215,7 @@ textarea.error {
     width: 45px;
     height: 45px;
     position: relative;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
     border: 0.5px solid rgba(32, 32, 32, 1);
 }
 .social-item__icon img {
@@ -1227,19 +1228,19 @@ textarea.error {
     object-fit: contain;
 }
 .social-item__title {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
 }
 .social-item__title h1 {
     font-family: "Cormorant";
     font-weight: 700;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
 }
 .social-item__text p {
     font-family: "Cormorant";
     font-weight: 500;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
     line-height: 1.2;
 }
 .network {
@@ -1258,7 +1259,7 @@ textarea.error {
 .network__title h1 {
     text-align: center;
     color: #ffffff;
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .white .network__title h1 {
@@ -1272,8 +1273,8 @@ textarea.error {
 .network__body {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    column-gap: 30px;
-    row-gap: 30px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 .white .network__item:last-child {
     grid-column: 1 / 5;
@@ -1285,10 +1286,10 @@ textarea.error {
     grid-column: 3 / 5;
 }
 .network-item__icon {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     position: relative;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
 }
 .network-item__icon img {
     position: absolute;
@@ -1300,19 +1301,19 @@ textarea.error {
     object-fit: contain;
 }
 .network-item__title {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
 }
 .network-item__title h1 {
     font-family: "Cormorant";
     color: #ffffff;
     font-weight: 700;
-    font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
 }
 .network-item__text p {
     font-family: "Cormorant";
     color: #ffffff;
     font-weight: 500;
-    font-size: clamp(1rem, 0.9rem + 0.5vw, 1.5rem);
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 .white .network-item__title h1,
 .white .network-item__text p {
@@ -1340,7 +1341,7 @@ textarea.error {
 }
 .look__title h1 {
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px 0px 0px;
 }
 .look__text p {
@@ -1365,7 +1366,7 @@ textarea.error {
     font-family: "Cormorant";
     font-weight: 700;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
+    font-size: font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);;
 }
 .profit {
     padding: 70px 0px;
@@ -1384,22 +1385,22 @@ textarea.error {
 .profit__title h1 {
     text-align: center;
     color: #ffffff;
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .profit__body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 40px;
-    row-gap: 50px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 .profit__item {
 }
 .profit-item__icon {
-    width: 80px;
-    height: 80px;
+    width: 50px;
+    height: 50px;
     position: relative;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
 }
 .profit-item__icon img {
     position: absolute;
@@ -1411,20 +1412,20 @@ textarea.error {
     object-fit: contain;
 }
 .profit-item__title {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
 }
 .profit-item__title h1 {
     font-family: "Cormorant";
     font-weight: 700;
     color: #ffffff;
-    font-size: clamp(1.5rem, 1.425rem + 0.375vw, 1.875rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
 }
 .profit-item__text p {
     font-family: "Cormorant";
     font-weight: 500;
     color: #ffffff;
-    line-height: 1.2;
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    line-height: 1.1;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 .pricing {
     padding: 70px 0px;
@@ -1435,18 +1436,18 @@ textarea.error {
 .pricing__title h1 {
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .pricing__text {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 20px 0px;
 }
 .pricing__text p {
     text-align: center;
     font-family: "Cormorant";
     font-weight: 700;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
 }
 .pricing__body {
     display: grid;
@@ -1459,24 +1460,24 @@ textarea.error {
     flex-direction: column;
 }
 .pricing-item__title {
-    padding: 30px;
+    padding: 20px;
     background-color: #182434;
 }
 .pricing-item__title h1 {
     font-family: "Cormorant";
     text-align: center;
-    font-size: clamp(1.5625rem, 1.5rem + 0.3125vw, 1.875rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     font-weight: 700;
     color: #ffffff;
 }
 .pricing-item__price {
-    padding: 30px;
+    padding: 20px;
     background-color: #ffffff;
 }
 .pricing-item__price h2 {
     font-family: "Cormorant";
     text-align: center;
-    font-size: clamp(1.5625rem, 1.5rem + 0.3125vw, 1.875rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     font-weight: 700;
     color: #182434;
 }
@@ -1486,10 +1487,10 @@ textarea.error {
     flex: 1 1 auto;
 }
 .pricing-item__item {
-    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
     font-family: "Cormorant";
     font-weight: 500;
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
     color: #ffffff;
     padding: 0px 0px 0px 40px;
     position: relative;
@@ -1500,8 +1501,8 @@ textarea.error {
     top: 50%;
     left: 0;
     transform: translate(0, -50%);
-    width: 25px;
-    height: 25px;
+    width: 20px;
+    height: 20px;
     background: url('../img/price/icons/01.png') center / contain no-repeat;
 }
 .pricing-item__item:last-child {
@@ -1516,11 +1517,11 @@ textarea.error {
 .pricing-item__button button {
     font-family: "Cormorant";
     display: inline-block;
-    padding: 15px 20px;
+    padding: 10px 20px;
     margin: 0 auto;
-    font-size: clamp(1.5625rem, 1.5rem + 0.3125vw, 1.875rem);
     font-weight: 700;
     color: #ffffff;
+    font-size: clamp(1rem, 0.975rem + 0.125vw, 1.125rem);
     background-color: rgba(147, 155, 167, 0);
     border: 1px solid #ffffff;
 }
@@ -1530,7 +1531,7 @@ textarea.error {
 .pricing__dicount p {
     text-align: center;
     font-family: "Cormorant";
-    font-size: clamp(1.25rem, 1rem + 1.25vw, 2.5rem);
+    font-size: clamp(1.5625rem, 1.5rem + 0.3125vw, 1.875rem);
 }
 .pricing__dicount p span {
     text-decoration: underline;
@@ -1545,7 +1546,7 @@ textarea.error {
 .contextual__title h1 {
     text-align: center;
     color: #ffffff;
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .contextual__text {
@@ -1555,7 +1556,7 @@ textarea.error {
     font-family: "Cormorant";
     font-weight: 700;
     color: #ffffff;
-    font-size: clamp(1.375rem, 1.25rem + 0.625vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     text-align: center;
     line-height: 1.2;
 }
@@ -1614,7 +1615,7 @@ textarea.error {
 .managment__title h1 {
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .managment__title span {
@@ -1625,8 +1626,8 @@ textarea.error {
 .managment__body {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    column-gap: 40px;
-    row-gap: 40px;
+    column-gap: 30px;
+    row-gap: 30px;
 }
 .managment__item {
     background-color: rgba(244, 244, 244, 1);
@@ -1648,19 +1649,19 @@ textarea.error {
     object-fit: contain;
 }
 .managment-item__title {
-    margin: 0px 0px 20px 0px;
+    margin: 0px 0px 15px 0px;
 }
 .managment-item__title h1 {
     font-family: "Cormorant";
     font-weight: 700;
-    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     color: rgba(32, 32, 32, 1);
 }
 .managment-item__text p {
     font-family: "Cormorant";
     font-weight: 500;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 .steps {
     padding: 60px 0px;
@@ -1677,7 +1678,7 @@ textarea.error {
 .steps__title h1 {
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .blue .steps__title h1 {
@@ -1699,7 +1700,7 @@ textarea.error {
     font-weight: 700;
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
 }
 .blue .steps__text p {
     color: #ffffff;
@@ -1772,7 +1773,7 @@ textarea.error {
 .profits__title {
     display: flex;
     align-items: center;
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
 }
 .profits__title span {
     width: 20%;
@@ -1783,13 +1784,13 @@ textarea.error {
     font-family: "Kudryashev";
     color: #ffffff;
     padding: 0px 0px 0px 20px;
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
 }
 .profits__body {
     display: grid;
     grid-template-columns: 2fr 3fr;
-    column-gap: 30px;
-    row-gap: 25px;
+    column-gap: 25px;
+    row-gap: 20px;
 }
 .profits__img {
     grid-column: 1 / 2;
@@ -1802,20 +1803,20 @@ textarea.error {
     grid-column: 1 / 3;
 }
 .profits-item__title {
-    margin: 0px 0px 15px 0px;
+    margin: 0px 0px 10px 0px;
 }
 .profits-item__title h1 {
     font-family: "Cormorant";
     color: #ffffff;
     font-weight: 700;
-    font-size: clamp(1.5rem, 1.4rem + 0.5vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
 }
 .profits-item__text p {
     font-family: "Cormorant";
     color: #ffffff;
     font-weight: 500;
-    line-height: 1.2;
-    font-size: clamp(1.25rem, 1.2rem + 0.25vw, 1.5rem);
+    line-height: 1.1;
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 .working {
     padding: 70px 0px;
@@ -1829,7 +1830,7 @@ textarea.error {
 .working__title h1 {
     text-align: center;
     color: rgba(32, 32, 32, 1);
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .working__title span {
@@ -1868,11 +1869,14 @@ textarea.error {
     color: rgba(32, 32, 32, 1);
     font-size: clamp(1.5rem, 1.425rem + 0.375vw, 1.875rem);
 }
-.working-item__text {
-
+.working-item__text p {
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 .working__text {
     margin: 30px 0px 0px 0px;
+}
+.working__text p {
+    font-size: clamp(1rem, 0.95rem + 0.25vw, 1.25rem);
 }
 .optimization {
     padding: 70px 0px;
@@ -1887,7 +1891,7 @@ textarea.error {
 .optimization__title h1 {
     text-align: center;
     color: #ffffff;
-    font-size: clamp(1.875rem, 1.5rem + 1.875vw, 3.75rem);
+    font-size: clamp(1.875rem, 1.625rem + 1.25vw, 3.125rem);
     padding: 0px 40px;
 }
 .optimization__title span {
@@ -1900,7 +1904,7 @@ textarea.error {
 .optimization__item {
     margin: 0px 0px 15px 0px;
     font-family: "Cormorant";
-    font-size: clamp(1.25rem, 1.1rem + 0.75vw, 2rem);
+    font-size: clamp(1.25rem, 1.1875rem + 0.3125vw, 1.5625rem);
     padding: 0px 0px 0px 50px;
     line-height: 1.2;
     position: relative;
@@ -1939,7 +1943,7 @@ textarea.error {
 .blog__body {
     grid-column: 2 / 3;
     grid-row: 1 / 3;
-    margin: 200px 0px 0px 0px;
+    margin: 200px 0px 60px 0px;
     padding: 0px 0px 0px 15px;
 }
 
@@ -2068,10 +2072,18 @@ textarea.error {
 .footer-privacy__text:last-child {
     margin: 0;
 }
-@media (max-width: 1400px) {
-    .team-item__img {
-        padding: 0px 0px 115% 0px;
+@media (max-width: 1600px) {
+    .container {
+        max-width: 1200px;
     }
+    .team__item {
+        grid-template-columns: 2fr 3fr;
+    }
+    .team-item__img {
+        padding: 0px 0px 107% 0px;
+    }
+}
+@media (max-width: 1400px) {
     .blog {
         grid-template-columns: 15% 1fr;
     }
@@ -2615,8 +2627,8 @@ textarea.error {
         display: none;
     }
     .network-item__icon {
-        width: 60px;
-        height: 60px;
+        width: 45px;
+        height: 45px;
     }
     .steps__item {
         flex: 0 0 50%;
